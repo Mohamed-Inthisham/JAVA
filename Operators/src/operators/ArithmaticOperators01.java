@@ -8,7 +8,7 @@ package operators;
  *
  * @author isthi
  */
-public class ArithmaticOperators {
+public class ArithmaticOperators01 {
     public static void main(String[]args){
         // Addition +
         int num1=100;
