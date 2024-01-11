@@ -11,6 +11,8 @@ package javaapplication1;
 public class JavaApplication1 {
 
     public static void main(String[] args) {
+        System.out.println("Hello world !");
+        
         int a=5, b=10, c=15;
         byte e = 1;
         short t = 23;
