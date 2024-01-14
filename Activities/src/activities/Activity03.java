@@ -41,5 +41,16 @@ public class Activity03 {
         System.out.println(myStr1.isEmpty());
         System.out.println(myStr2.equals(myStr3));
         System.out.println(myStr1.equals(myStr2));
+        
+        //05
+         String s="100";
+         int value=Integer.parseInt(s);
+         System.out.println(value);
+         
+         double value1=Double.parseDouble(s);
+         System.out.println(value1);
+         
+         short value3=Short.parseShort(s);
+         System.out.println(value3);
     }
 }
