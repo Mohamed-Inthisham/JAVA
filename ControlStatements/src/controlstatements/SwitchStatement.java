@@ -10,7 +10,7 @@ package controlstatements;
  */
 public class SwitchStatement {
     public static void main(String[]args){
-        int weekday=2;
+        int weekday=8;
         switch(weekday){
             case 1:
                 System.out.println("Monday");
@@ -33,6 +33,8 @@ public class SwitchStatement {
             case 7:
                 System.out.println("Sunday");
                 break;
+            default :
+                System.out.println("Invalid Number");
         }
     }
     
