@@ -35,7 +35,11 @@ public class Variables {
          
          /*
          2-class variables/instance variables (creates inside the class outside the method/can use everywhere)
+         public String name="Chanaka";
+
          3-static variables (creates inside the class outside the method/can use everywhere)
+         public static String city="Colombo";
+
          */
     
 }
