@@ -62,7 +62,7 @@ public class TernaryOperator {
 "Good" for grades between 70 and 89,
 "Average" for grades between 50 and 69,
 "Fail" for grades below 50.
-         */
+
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the grade");
@@ -73,5 +73,20 @@ public class TernaryOperator {
                         (grade <70) ? "Average" :
                                 (grade<90) ? "Good" : "Excellent";
         System.out.println(result);
+
+         */
+
+        /*
+        6- Write a Java program that uses a ternary operator to calculate and print the discounted price of an item. If the original price is greater than $100, apply a 10% discount; otherwise, apply a 5% discount.
+         */
+
+        Scanner scanner =new Scanner(System.in);
+
+        System.out.println("enter the item price");
+        float originalPrice=scanner.nextFloat();
+
+        float discount=(originalPrice > 100)?originalPrice*0.10f:originalPrice*0.5f;
+        System.out.println("Discounted Price : "+discount);
+        System.out.println("Total After the Discount  : "+(originalPrice-discount));
     }
 }
