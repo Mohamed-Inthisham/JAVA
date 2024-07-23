@@ -35,7 +35,7 @@ public class IfCondition {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the purchase amount");
         double purchase = scanner.nextDouble();
-        double discount = 0.0;
+        double discount;
 
         if (purchase >= 100) {
             System.out.println("are u a premium member?");
