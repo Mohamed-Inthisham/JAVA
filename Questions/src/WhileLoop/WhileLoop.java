@@ -31,7 +31,21 @@ public class WhileLoop {
 //        System.out.println("Happy New Year");
 
 
+        Scanner scanner =new Scanner(System.in);
+        System.out.println("enter the dice number");
+        int dice=scanner.nextInt();
 
-
+        if(dice<1 || dice>6){
+            System.out.println("error");
+        }else {
+            while (dice <= 6) {
+                if (dice < 6) {
+                    System.out.println("not yatzy");
+                } else {
+                    System.out.println("yatzyyyyyyyyyyy");
+                }
+                dice++;
+            }
+        }
     }
 }
