@@ -19,15 +19,30 @@ public class Patterns {
 //        }
 //        --------------------------------------------------------------------------------
 
-        Scanner scanner= new Scanner(System.in);
-        System.out.println("enter the pattern count");
-        int rows=scanner.nextInt();
-        System.out.println("enter the pattern u want");
-        String patternStyle=scanner.next();
+//        Scanner scanner= new Scanner(System.in);
+//        System.out.println("enter the pattern count");
+//        int rows=scanner.nextInt();
+//        System.out.println("enter the pattern u want");
+//        String patternStyle=scanner.next();
+//
+//        for(int i=0; i<=rows; i++){
+//            for(int j=0; j<=i; j++){
+//                System.out.print(patternStyle);
+//            }
+//            System.out.println();
+//        }
+//        --------------------------------------------------------------
 
-        for(int i=0; i<=rows; i++){
+//        Reverse pattern
+
+        int numRows=5;
+
+        for(int i=0; i<numRows; i++){
             for(int j=0; j<=i; j++){
-                System.out.print(patternStyle);
+                System.out.print(" ");
+            }
+            for(int k=0; k<numRows-i; k++){
+                System.out.print("* ");
             }
             System.out.println();
         }
