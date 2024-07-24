@@ -20,5 +20,18 @@ public class WhileLoop {
 //            System.out.println(sum);
 //        }
 //        System.out.println(sum);
+
+
+//        Countdown
+//        int countdown=5;
+//        while(countdown>=1){
+//            System.out.println(countdown);
+//            countdown--;
+//        }
+//        System.out.println("Happy New Year");
+
+
+
+
     }
 }
